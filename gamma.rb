@@ -2,9 +2,7 @@ require "formula"
 
 class Gamma < Formula
   homepage "http://scion.duhs.duke.edu/vespa/gamma"
-  url "http://scion.duhs.duke.edu/guest_svn/gamma/tags/4_3_2", :using => :svn
   head "http://scion.duhs.duke.edu/guest_svn/gamma/trunk", :using => :svn
-  sha1 ""
 
   head do
       patch :DATA
