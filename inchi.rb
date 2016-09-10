@@ -2,7 +2,6 @@ require 'formula'
 
 class InchiTest < Formula
   url 'http://www.inchi-trust.org/download/104/INCHI-1-TEST.zip'
-  sha1 '6bb3db297747f631af558faf1d6788b233cb0ea1'
   sha256 '48e29c240332ad0664f333aa3f8ce4bffd107735649cc9f270ec7c04372229d7'
 end
 

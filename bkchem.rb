@@ -24,7 +24,7 @@ class Bkchem < Formula
   devel do
     url 'http://bkchem.zirael.org/download/bkchem-0.14.0-pre2.tar.gz'
     version '0.14.0-pre2'
-    sha1 '65b93128932959b394eff8e5a8018a19b30d26ee1ae44345e8bb87167303ed26'
+    sha256 '65b93128932959b394eff8e5a8018a19b30d26ee1ae44345e8bb87167303ed26'
   end
 
   depends_on :x11 # if your formula requires any X11/XQuartz components
