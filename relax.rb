@@ -1,8 +1,8 @@
 class Relax < Formula
   homepage "http://www.nmr-relax.com/"
-  url "http://download.gna.org/relax/relax-3.3.6.src.tar.bz2"
-  version "3.3.6"
-  sha1 "2eed0df4b0e64d6daf0d809f0a96fcb6d2a87409"
+  url "http://download.gna.org/relax/relax-4.0.2.src.tar.bz2"
+  version "4.0.2"
+  sha256 "7c12582ffb021ce728c5c4927c7dbb386bdb7121634eb30f687e5524e4bc4919"
   head "svn://svn.gna.org/svn/relax/trunk", :using => :svn
 
   depends_on 'python'

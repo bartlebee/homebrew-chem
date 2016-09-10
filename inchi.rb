@@ -3,20 +3,21 @@ require 'formula'
 class InchiTest < Formula
   url 'http://www.inchi-trust.org/download/104/INCHI-1-TEST.zip'
   sha1 '6bb3db297747f631af558faf1d6788b233cb0ea1'
+  sha256 '48e29c240332ad0664f333aa3f8ce4bffd107735649cc9f270ec7c04372229d7'
 end
 
 class Inchi < Formula
   homepage 'http://www.inchi-trust.org/'
   url 'http://www.inchi-trust.org/download/104/INCHI-1-API.zip'
   version '1.04'
-  sha1 '46a99a532ae6fcec40efe20abafed0ed52d73c43'
+  sha256 'c187573c0f6a1fcd555393315383bd1f69563ee47bd43c898f17c473b7bb690a'
 
   # option 'with-32-bit', 'Force 32-bit build'
 
   # Matt Swain (mcs07) patch for compiling libraries on OSX
   patch do
       url 'https://gist.githubusercontent.com/mcs07/6194763/raw/2edc62ed259fa8970a9c9bbd9b937afc2cf45f98/inchi-osx.diff'
-      sha1 '33c09c38e5e45d88fa9a04b4289eb05a6c3b678b'
+      sha256 '54d1cbf2acb0d28b0320ee1faccf7703a3d7f63f8c9ba5398425b23de0597187'
   end
 
   def install

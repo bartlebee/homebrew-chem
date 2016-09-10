@@ -35,10 +35,10 @@ class CDKRequirement < Requirement
 end
 
 class Cinfony < Formula
-  homepage 'http://code.google.com/p/cinfony/'
-  url 'http://cinfony.googlecode.com/files/cinfony-1.2.tar.gz'
-  sha1 '4c515449884697d2552818b822372a7c27f3a8ad'
-  head 'http://cinfony.googlecode.com/svn/trunk'
+  homepage 'https://cinfony.github.io'
+  url 'https://github.com/cinfony/cinfony/releases/download/v1.2/cinfony-1.2.tar.gz'
+  sha256 '91331105e47585caae286cbb22a2cb0529679790650b5acc885a54c95949b27a'
+  head 'https://github.com/cinfony/cinfony.git'
 
 	depends_on 'open-babel'
 	depends_on 'py2cairo'

@@ -18,13 +18,13 @@ end
 class Bkchem < Formula
   homepage 'http://bkchem.zirael.org/'
   url 'http://BKChem.zirael.org/download/bkchem-0.13.0.tar.gz'
-  sha1 'ab38ba090682f36b1f34c7805f888c5c92e75186'
+  sha256 'ac78f9bb6fa5c62ec7a2281c9ef4a6a9b5180b51cb4e9353963ce772c1869238'
   head 'git://gitorious.org/bkchem/bkchem.git'
 
   devel do
     url 'http://bkchem.zirael.org/download/bkchem-0.14.0-pre2.tar.gz'
     version '0.14.0-pre2'
-    sha1 '9c17e8cbd0443d55b82c32f27f5965dd014033c5'
+    sha1 '65b93128932959b394eff8e5a8018a19b30d26ee1ae44345e8bb87167303ed26'
   end
 
   depends_on :x11 # if your formula requires any X11/XQuartz components
